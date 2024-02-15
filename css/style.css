@@ -1,4 +1,37 @@
-p {
-    color: green
+body {
+    background-color:#FBEBFB;
 }
 
+
+header {
+    background-color:#fbeeeb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #041114;
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+    background-color: #fbeeeb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #041114;
+    text-align: center;
+}
+
+p {
+    font-family: "Trebuchet MS", sans-serif;
+    color: #5f0101;
+} 
+
+nav {
+    background-color: #fbeeeb;
+}
+
+a:link { color:#041114; } /* unvisited link */
+a:visited { color:#7e767e; } /* visited link */
+a:hover { color: #b0a5b0; } /* mouse over link */
+a:active { color:#0000FF; }  /* selected link */
+
+footer {
+    background-color: #514c51;
+    text-align: center;
+}

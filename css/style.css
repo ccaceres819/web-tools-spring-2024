@@ -22,6 +22,11 @@ p {
     color: #5f0101;
 } 
 
+.youth {
+    font-family: "Trebuchet MS", sans-serif;
+    color: #4233c7;
+}
+
 nav {
     background-color: #fbeeeb;
 }

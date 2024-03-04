@@ -40,3 +40,14 @@ footer {
     background-color: #514c51;
     text-align: center;
 }
+
+fieldset {
+    width: 70%;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+]

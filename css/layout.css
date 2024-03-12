@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+aside {
+    width: 20vw;
+    float: right;
+}
+
+main {
+    width: 80vw;
+    margin: auto;
+}
+
+fieldset {
+    width: 70%;
+    margin: 0 auto;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+table {
+    margin: 0 auto
+    width: 50%;  
+    border-spacing: 2px; 
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 4px;
+}

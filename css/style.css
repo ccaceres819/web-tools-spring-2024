@@ -42,12 +42,18 @@ footer {
 }
 
 fieldset {
-    width: 70%;
     text-align: center;
 }
 
-img {
-    width: 250px;
-    height: 250px;
+.list-style-none {
+    list-style: none;
 }
-]
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+

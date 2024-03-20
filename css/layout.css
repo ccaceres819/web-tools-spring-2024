@@ -5,11 +5,13 @@
 aside {
     width: 20vw;
     float: right;
+    position: sticky;
+    top: 0;
 }
 
 main {
     width: 80vw;
-    margin: auto;
+    margin: left;
 }
 
 fieldset {
@@ -35,4 +37,62 @@ table, th, td {
 
 th, td {
     padding: 4px;
+}
+
+.about-jn {
+    
+        box-sizing: border-box;
+        height: 100%;
+        margin: 25px;
+        padding: 25px;
+}
+
+.firstjnpic {
+
+float: right;
+margin: 20px;
+max-width: fit-content;
+
+}
+
+.secondjnpic {
+
+float: left;
+margin: 20px;
+max-width: fit-content; 
+
+}
+
+.thirdjnpic {
+
+    float: right;
+    margin: 20px;
+    max-width: fit-content; 
+}
+
+header {
+
+    border: 2px solid black;
+    padding: 25px;
+    margin: 10px;
+    
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 10px;
+}
+
+nav {
+    margin: 10px;
+}
+
+.logo img {
+    
+    float: right;
+    position: absolute;
+    top: 25px;
+	right: 100px;
+	width: 100px;
+	height: 100px;
+
 }

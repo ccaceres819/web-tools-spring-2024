@@ -1,56 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="shortcut icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/nav-menu.css">
+  <link rel="shortcut icon" href="favicon.ico">
 </head>
+
 <body>
-    <header>
-        <h1>Contact Us</h1>
-      </header>
-      <nav>
-        <a href="index.html">Home</a> | <a href="contact-us.html">Contact Us</a> | <a href="about-us.html">About Us</a>
-        
-      </nav>
-      <main>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <nav class="topnav">
+    <a href="index.html">Home</a> | <a href="contact-us.html">Contact Us</a> | <a href="about-us.html">About Us</a>
+
+  </nav>
+  <main>
     <fieldset>
-        <legend>Webform Mailer</legend>
-        <h2>Personal Information</h2>
-        <form action=mailto:cacerescristian1@gmail.com" method="post">
-            <label> First Name: <input type="text" name="firstname" autofocus required> </label><br><br>
-            <label> Last Name: <input type="text" name="lastname" required> </label><br><br>
-            <label> Email: <input type="email" name="email" required> </label><br><br>
-            <label> Phone Number: <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> </label><br><br>
-            <label for="country">Where are you contacting us from?</label> <select name="country" id="country">
-                <option value="1" selected>United States</option>
-                <option value="2">United Kingdom</option>
-                <option value="3">Mexico</option>
-                <option value="4">El Salvador</option>
-                <option value="5">India</option>
-            </select><br>
-            <h3>Information Request</h3>
-                <p>What is the nature of this request?</p>
-                <input type="radio" name="requestType" id="question" required> <label for="question">I would like to ask a question</label><br>
-                <input type="radio" name="requestType" id="comment" required> <label for="comment">I would like to leave a comment</label> <br><br>
-            <label> Message: </label><br> <textarea cols="80" rows="10" placeholder="Enter your question or comment here:" required></textarea><br><br>
-            <input type="checkbox" name="newsletter" value=""> <label>I would like to receive monthly emails for the newsletter</label><br><br>
-    
-    
-    
-            <input type="submit" name="submit" value="Submit">
-            <input type="reset" name="reset" value="Clear Form">
-        
-        
-        </form>
+      <legend>Webform Mailer</legend>
+      <h2>Personal Information</h2>
+      <form action=mailto:cacerescristian1@gmail.com" method="post">
+        <i class="fa fa-male"></i><label> First Name: <input class="w3-input w3-border" type="text" name="firstname"
+            autofocus required> </label><br><br>
+        <i class="fa fa-male"></i><label> Last Name: <input class="w3-input w3-border" type="text" name="lastname"
+            required> </label><br><br>
+        <i class="fa fa-envelope"></i><label> Email: <input class="w3-input w3-border" type="email" name="email"
+            required> </label><br><br>
+        <i class="fa fa-phone"></i><label> Phone Number: <input class="w3-input w3-border" type="tel" id="phone"
+            name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> </label><br><br>
+        <label for="country">Where are you contacting us from?</label> <select
+          class="w3-select w3-border" name="country" id="country">
+          <option value="1" selected>United States</option>
+          <option value="2">United Kingdom</option>
+          <option value="3">Mexico</option>
+          <option value="4">El Salvador</option>
+          <option value="5">India</option>
+        </select><br>
+        <h3>Information Request</h3>
+        <p>What is the nature of this request?</p>
+        <input class="w3-radio" type="radio" name="requestType" id="question" required> <label for="question">I would
+          like to ask a question</label><br>
+        <input class="w3-radio" type="radio" name="requestType" id="comment" required> <label for="comment">I would like
+          to leave a comment</label> <br><br>
+        <label> Message: </label><br> <textarea cols="80" rows="10" placeholder="Enter your question or comment here:"
+          required></textarea><br><br>
+        <input class="w3-check" type="checkbox" name="newsletter" value=""> <label>I would like to receive monthly
+          emails for the newsletter</label><br><br>
+
+
+
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="Clear Form">
+
+
+      </form>
     </fieldset>
 
 
     <!-- Table Example -->
 
 </body>
+
 </html>

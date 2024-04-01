@@ -94,5 +94,13 @@ nav {
 	right: 100px;
 	width: 100px;
 	height: 100px;
+    z-index: 1;
 
+}
+
+.header {
+    background-color:#fbeeeb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #041114;
+    text-align: center;
 }
